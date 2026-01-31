@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="FEEDBACK HUB" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK HUB</title>
+</head>
+<body>
+    
+    <style>
+     form {
+    border: 2px solid black;
+    padding: 15px;          
+    width: 300px;          
+    margin: 20px auto;  
+     }
+     .Basic{
+        color: rgb(0, 0, 0);
+    padding: 0px;          
+    width: 300px;          
+    margin: 20px auto;  
+     }
+     .Submit{
+        color: white;
+        background-color: rgb(87, 107, 185);
+        cursor: pointer;
+        height: 30px;
+        width: 160px;
+    }
+     .Submit:hover{
+        opacity: 0.75;
+     }
+     .Main{
+        text-align: center;
+     }
+     </style>
+    
+    <h1 class="Basic">Basic Information</h1>
+    <section>
+        <form>
+        <form action="">
+            <label for="Fname">First Name:</label><br>
+            
+            <input type="text" ID="Fname" name="Fname" placeholder="Type your First name here!"> <br><br>
+
+            <label for="Fname">E-mail Address:</label><br>
+
+            <input type="text" ID="Fname" name="Fname" placeholder="name@email.com"><br>
+
+            <h1 class="Basic">User Survey</h1>
+            <h2>How did you hear about us?</h2>
+
+        <label for="Survey">Choose one:</label>
+            <select name="Survey" id="Survey">
+            <option value="Social">Social Media</option>
+            <option value="Referral">Referral</option>
+            <option value="Others">Others</option>
+        </select>
+
+        <h2>Would you recommend us?</h2>
+            <input type="radio" id="Yes" name="Decision" value="Yes">
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="Decision" value="No">
+            <label for="No">No</label>
+
+        <h2>Additional Comments:</h2>
+        <label for="comment">Enter your comment:</label><br>
+        <textarea name="comment" id="comment" rows="4" cols="30" required></textarea><br>
+        <input type="submit" class="Submit" value="Submit Comment">
+        <p style="text-align: center;"><a href="Main.html">Return to main</a><br></p>
+        
+        </form>
+    </section>
+</body>
+</html>
