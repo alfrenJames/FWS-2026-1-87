@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        section{
+        border: solid rgb(1, 48, 107) 1px;
+        background-color: rgb(240, 248, 255);
+        border-radius: 20px;
+        padding: 40px;
+        padding-top: 0;
+        width: 240px;
+    }
+
+    h2{
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 0, 74);
+    }
+
+    body{
+
+    font-family:Arial, Helvetica, sans-serif;
+    
+    }
+
+        button{
+        width: 330px;
+        height: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+        border-radius: 10px;
+        border-style: none;
+        background-color:  rgb(1, 48, 107);
+        color: white;
+    }
+
+    .mainpage{
+        background-color: rgb(0, 144, 96);
+    }
+
+
+</style>
+<body>
+    <h1>Quick Checkout</h1>
+
+        <section>
+            <form action="">
+                <h2>Street Address</h2>
+                <label for="address">Address</label> <br>
+                <input type="text" id="address" placeholder="Enter Address"> <br><br>
+    
+                <label for="zip">Zipcode</label> <br>
+                <input type="number" id="zip" placeholder="Enter Zipcode"> 
+            </form>
+        </section> <br>
+
+        <section>
+            <form action="">
+                <h2>Payment Information</h2>
+                <label for="payment">Card Number</label> <br>
+                <input type="number" id="payment" placeholder="Input Card Number"> <br><br>
+    
+                <label for="expiry">Expiry Date: </label>
+                <input type="date" id="expiry"> 
+            </form>
+
+        </section> <br><br>
+        
+        <input type="checkbox" id="sign-me-up"> 
+        <label for="sign-me-up">Sign me up!</label> <br><br>
+
+        <button>SUBMIT</button> <br><br>
+        <a href="index.html" > <button class="mainpage"> MAIN PAGE </button> </a>
+</body>
+</html>

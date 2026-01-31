@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=from, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section{
+        border: solid rgb(1, 48, 107) 1px;
+        background-color: rgb(240, 248, 255);
+        border-radius: 20px;
+        padding: 40px;
+        padding-top: 0;
+        width: 240px;
+    }
+
+    h2{
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 0, 74);
+    }
+
+    body{
+
+    font-family:Arial, Helvetica, sans-serif;
+    
+    }
+
+    textarea{
+        width: 240px;
+        height: 80px;
+    }
+
+    select{
+        width: 240px;
+        height: 40px;
+    }
+
+    button{
+        width: 330px;
+        height: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+        border-radius: 10px;
+        border-style: none;
+        background-color:  rgb(1, 48, 107);
+        color: white;
+    }
+
+    .mainpage{
+        background-color: rgb(0, 144, 96);
+    }
+
+
+</style>
+
+<body>
+        <h2>Basic Information</h2>
+
+        <section>
+            <form action="">
+                <h2>Input Field</h2>
+                <label for="fname">Name</label> <br>
+                <input type="text" id="fname" placeholder="Enter full name"> <br><br>
+    
+                <label for="email_1">Email</label> <br>
+                <input type="email" id="email_1" placeholder="Enter email"> 
+            </form>
+        </section> <br>
+
+        <h2>User Survey</h2>
+        <section>
+        <h2>How did your hear about us?</h2>
+            <select name="user-survey" id="user-survey">
+                <option value="menu">Select one</option>
+                <option value="fb">Facebook</option>
+                <option value="ig">Instagram</option>
+                <option value="ads">Ads</option>
+                <option value="news">News</option>
+            </select><br>
+
+        <h2>Would you recommend us?</h2>
+            <input type="radio" id="yes" name="opt" value="yes">
+            <label for="yes">YES</label>
+
+            <input type="radio" id="no" name="opt"  value="no">
+            <label for="no">NO</label>
+            
+        <h2>Additional Comments:</h2>
+        <textarea name="comments" id="comments"></textarea>
+
+        </section><br><br>
+
+        <button> SUBMIT </button><br><br>
+        <a href="index.html"><button class="mainpage">MAIN PAGE </button></a> 
+        
+
+</body>
+</html>
