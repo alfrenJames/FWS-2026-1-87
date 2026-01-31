@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Activity 2: Quick Checkout</title>
+
+  <style>
+
+    section{
+      width: 300px;
+      margin: auto;
+    }
+
+    .form-first,
+    .form-second{
+      border: 1px solid black;
+      padding: 15px;
+    }
+
+    .form-second{
+      margin-top: 10px;
+    }
+
+    .form-third{
+      text-align: center;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+
+    .zip-code {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="index.html">Click here to go to Main Page</a>
+  <h1 style="text-align: center;">Shipping Address</h1>
+  <section>
+    <form class="form-first">
+      <label for="street-address">Street Address:</label><br>
+      <input type="text" id="street-address" name="street-address" placeholder="Input Field (Text)"><br>
+
+      <label for="zip-code">Zip Code:</label>
+      <input class="zip-code" type="number" id="zip-code" placeholder="Text(Number)"><br>
+      <br>
+    </form>
+
+    <form class="form-second">
+      <label for="card-number">Card Number:</label><br>
+      <input type="number" id="card-number" name="card-number" placeholder="Input Field (Text)"><br>
+
+      <label for="expiry-date">Expiry Date:</label>
+      <input class="zip-code" type="date" id="expiry-date" name="expiry-date"><br><br>
+      
+    </form><br>
+
+    <form class="form-third">
+      <input type="checkbox" id="sign-up" name="sign-up" value="sign-up">
+      <label for="sign-up">Sign me up for deals!</label><br>
+      <button type="submit">Complete Purchase</button>
+    </form>
+
+    
+  </section>
+
+
+
+
+</body>
+
+</html>
