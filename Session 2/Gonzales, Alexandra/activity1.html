@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <Style>
+        section{
+            border: 1px solid black;
+            padding: 10px 20px;
+        }
+        
+    </Style>
+<body>
+
+<h2>FEEDBACK HUB</h2><br>
+<a href="index.html">Main Page</a>
+    <br><br>
+
+<h1>Basic Information</h1>
+    <section>    
+      <form>
+            <label for="fname">Full name:</label><br>
+            <input type="text" id="fname" name="fname" ><br><br>
+            
+            <label for="email_1">Email Address:</label><br>
+            <input type="email" id="email_1" placeholder="Enter Email"> <br><br>
+       </form> 
+    </section><br>
+
+ <h1>User Survey</h1>
+    <section>
+        <form>
+            <p>How did you hear about us?</p>
+            <select name="menu" id="menu">
+            <option value="friends">Friends</option>
+            <option value="facebook">Facebook ads</option>
+            <option value="google">Google ads</option>
+            </select>
+       
+            <p>Would you recommend us?</p>
+            <input type="radio" id="yes" name="reco" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="reco" value="no">
+            <label for="no">No</label>
+            <br><br>
+
+            <p>Additional Comments:</p>
+            <textarea></textarea><br><br>
+        </form>
+    </section> <br>       
+        
+    <button type="submit">Submit Feedback</button>
+        <br><br>
+        
+</body>
+</html>
