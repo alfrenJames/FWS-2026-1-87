@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feedback Hub</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .column {
+        padding: 20px;
+        border: 1px solid #88a3e0;
+        background-color: #55bcdb;
+        box-sizing: border-box;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        margin: 8px 0 16px 0;
+        box-sizing: border-box;
+      }
+
+      label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="Canumay, Jeian index-activity.html"> Back to Main Page </a>
+    <h2>STUDENT ACTIVITY 1: FEEDBACK HUB</h2>
+
+    <div class="column-container" style="display: flex; gap: 20px">
+      <div class="column">
+        <h3>Basic Information</h3>
+        <form>
+          <label for="fname">Full Name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Your full name.."
+            required
+          />
+
+          <label for="email_1">Email:</label>
+          <input
+            type="email"
+            id="email_1"
+            name="email_1"
+            placeholder="Your email.."
+            required
+          />
+        </form>
+      </div>
+
+      <div class="column">
+        <h3>User Survey</h3>
+        <form>
+          <label for="source">How did you hear about us?</label>
+          <select id="source" name="source">
+            <option value="">--Please choose an option--</option>
+            <option value="social_media">Social Media</option>
+            <option value="friend">Friend / Family</option>
+            <option value="online_ad">Online Advertisement</option>
+            <option value="search_engine">Search Engine (Google, Bing)</option>
+            <option value="event">Event / Seminar</option>
+            <option value="other">Other</option>
+          </select>
+          <br />
+        </form>
+
+        <form>
+          <h3>Would you recommend us to others?</h3>
+          <input type="radio" id="yes" name="recommend" value="yes" />
+          <label for="yes">Yes</label><br />
+
+          <input type="radio" id="no" name="recommend" value="no" />
+          <label for="no">No</label>
+          <br />
+        </form>
+
+        <label for="Comments">Additional Comments:</label>
+        <textarea id="Comments" name="Comments" rows="4" cols="50"></textarea>
+      </div>
+    </div>
+    <button type="submit" style="margin-top: 20px; padding: 10px 20px">
+      Submit
+    </button>
+  </body>
+</html>
