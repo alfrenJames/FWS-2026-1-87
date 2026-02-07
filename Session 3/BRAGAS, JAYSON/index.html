@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLES</title>
+</head>
+
+<style>
+    *{
+        font-family: Arial, sans-serif;
+    }
+
+    table {
+        width: 50%;
+        border-collapse: collapse;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    table th, table td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    .shop-cat, .week-sched {
+        background-color: rgb(56, 205, 255);
+        text-align: center;
+    }
+
+    .day, .product-name {
+        background-color: #d6ffdf;
+    }
+    .sub-header {
+        background-color: #e2eeff;
+    }
+
+    h1 {
+        color: #ffffff;
+        font-size: large;
+        background: #00384e;
+        width: 50%;
+        text-align: center;
+        padding: 16px 0 16px 0;
+        border-radius: 20px 20px 0 0;
+        margin-bottom: 0;
+    }
+
+</style>
+<body>
+    <h1>The Product Catalog</h1>
+
+    <table class="shoe-cat">
+        <tr>
+            <th class="shop-cat" colspan="3">SHOE SHOP CATALOG</th>
+        </tr>
+        <tr class="sub-header">
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td class="product-name">Running Shoes</td>
+            <td>Comfortable running shoes for daily exercise</td>
+            <td>$10.00</td>
+        </tr>
+        <tr>
+            <td class="product-name">Sneakers</td>
+            <td>Casual sneakers for everyday wear</td>    
+            <td>$9.50</td>
+        </tr>
+        <tr>
+            <td class="product-name">Boots</td>
+            <td>Sturdy boots for outdoor activities</td>
+            <td>$22.75</td>
+        </tr>
+        <tr>
+            <td class="product-name">Sandals</td>
+            <td>Comfortable sandals for casual wear</td>
+            <td>$8.75</td>
+        </tr>
+        <tr>
+            <td class="product-name">Slippers</td>
+            <td>Comfortable slippers for indoor wear</td>
+            <td>$2.75</td>
+        </tr>
+        <tr>
+            <td class="product-name">Doll Shoes</td>
+            <td>Comfortable doll shoes for playtime</td>
+            <td>$5.75</td>
+        </tr>
+        <tr>
+            <td class="product-name">High Heels</td>
+            <td>Elegant high heels for special occasions</td>
+            <td>$15.00</td>
+        </tr>
+        <tr>
+            <td class="product-name">Loafers</td>
+            <td>Stylish loafers for formal wear</td>
+            <td>$12.50</td>
+        </tr>
+        <tr>
+            <td class="product-name">Flip Flops</td>
+            <td>Comfortable flip flops for beachwear</td>
+            <td>$3.25</td>
+        </tr>
+        <tr>
+            <td class="product-name">Oxfords</td>
+            <td>Classic oxfords for business attire</td>
+            <td>$18.00</td>
+        </tr>
+        <tr>
+            <td class="product-name">Espadrilles</td>
+            <td>Stylish espadrilles for summer wear</td>
+            <td>$9.00</td>
+        </tr>
+        <tr>
+            <td class="product-name">Wedges</td>
+            <td>Comfortable wedges for casual wear</td>
+            <td>$14.25</td>
+        </tr>
+        <tr>
+            <td class="product-name">Clogs</td>
+            <td>Comfortable clogs for everyday wear</td>
+            <td>$11.50</td>
+        </tr>
+        <tr>
+            <td class="product-name">Mary Janes</td>
+            <td>Classic Mary Janes for school or work</td>
+            <td>$7.75</td>
+        </tr>
+        <tr>
+            <td class="product-name">Boat Shoes</td>
+            <td>Stylish boat shoes for casual wear</td>
+            <td>$13.00</td>
+        </tr>
+    </table>  
+
+    <br>
+
+    <h1>Weekly Schedule</h1>
+
+    <table class="sched-table">
+        <tr>
+            <th class="week-sched" colspan="4">WEEKLY SCHEDULE</th>
+        </tr>
+        <tr class="sub-header">
+            <th>Day</th>
+            <th>9:00 AM</th>
+            <th>10:00 AM</th>
+            <th>11:00 AM</th>
+        </tr>
+        <tr>
+            <th class="day">Monday</th>
+            <td>Morning Huddle</td>
+            <td colspan="2">Staff meeting</td>  
+        </tr>
+        <tr>
+            <th class="day">Tuesday</th>
+            <td>Project work</td>
+            <td>Client call</td>
+            <td>Team lunch</td>
+        </tr>
+        <tr>
+            <th class="day">Wednesday</th>
+            <td colspan="3">Project launch</td>
+        </tr>
+        <tr>
+            <th class="day">Thursday</th>
+            <td colspan="2">Project review</td>
+            <td>Meeting</td>
+        </tr>
+        <tr>
+            <th class="day">Friday</th>
+            <td>Team building activity</td>
+            <td>Project work</td>
+            <td>Wrap-up meeting</td>
+    </table>
+</body>
+</html>
