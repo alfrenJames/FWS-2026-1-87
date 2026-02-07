@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK HUB</title>
+    <Style>
+        section {
+            border: 1px solid black;
+            padding: 10px 15px;
+        }
+        </Style>
+
+</head>
+<body>
+ 
+
+    <h2>Request to back in Main page</h2><br>
+    <a href="forms.html">Go Back to Main Page</a><br><br>
+
+
+<section> 
+    <form>   
+        <h3>Input Fields</h3>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=" " placeholder="Enter Name"><br>
+          <p style="font-size: small;">Input your name!</p>
+        
+        <br>
+        <label for="email_1">Email Address:</label><br>
+        <input type="email" id="email_1" placeholder="Enter Email"> <br>
+        <p style="font-size: small;">Input Field (email)</p>
+    </form>
+</section>
+<br>
+<section>
+    <form>
+        <h3>Users Servey</h3>
+        <p>How did you hear about us?</p>
+        <label for="xidea"></label>
+        <select name="xidea" id="xidea">
+            <option value="" disabled selected>Please select list from dopdown</option>
+            <option value="FB">Facebook/Instgram</option>
+            <option value="Google">Google</option>
+            <option value="link">Linkd In</option>
+            <option value="paper">paper adds</option>
+        </select>
+        <br><br>
+       
+        <h3 style="font-size: small;">would you recommend us?</h3>
+        <input type="radio" id="option" name="opt1" value="HTML">
+        <label for="option" style="font-size: x-small;">Yes</label>
+        <input type="radio" id="option" name="opt1" value="HTML">
+        <label for="option" style="font-size: x-small;">No</label>
+        <br><br>
+        <label for="fname">Additional Comment</label><br>
+        <textarea id="txtbox" name="toxtbox" rows="10" cols="50"></textarea>
+   
+    </form><br>
+</section>  
+
+<br><br>
+  <button type="submit">submit feedback</button>
+    
+</body>
+</html>
