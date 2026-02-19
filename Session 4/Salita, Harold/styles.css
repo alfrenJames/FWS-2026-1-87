@@ -1,0 +1,115 @@
+body{
+    width: 100vw;          
+    margin: 0 auto;       
+    padding: 0;         
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box; 
+}
+.mainpagetop{
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    min-width: 50%;
+    width: 100%;
+}
+.fullname{
+    font-size: 28px;
+    color: rgb(76, 76, 76);
+    margin: 20px 48px;
+    white-space: nowrap;
+}
+.labelstop{
+    display: flex;
+    gap: 0px;
+    margin-left: 55%;
+    width: 100%;
+    cursor: pointer;
+}
+.toplabel{
+    font-size: 24px;
+    color: rgb(76, 76, 76);
+    margin: 24px 16px;    
+}
+.mainpage2{
+    background-color: rgb(219, 219, 219);
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    background-color: white;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+.myportfolio{
+    background-color: white;
+    height: 180px;
+    width: 480px;
+    font-size: 64px;
+    color: rgb(85, 85, 85);
+    text-align: center;
+}
+.mainpage3{
+    background-color: rgb(215, 215, 215);
+    height: 450px;
+}
+h1{
+    color: rgb(121, 121, 121);
+    text-align: center;
+    padding-top: 36px;
+}
+.projectbox{
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    border-radius: 10px;
+    height: 300px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 48px;
+    cursor: pointer;
+}
+.card1{
+    border-radius: 10px;
+    margin-top: 12px;
+    text-align: center;
+    margin-left: auto;
+    background-color: white;
+    height: 280px;
+    width: 240px;
+}
+.footer{
+    color: rgb(87, 87, 87);
+    background-color: rgb(208, 208, 208);
+    height: 160px;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+}
+.scontainer{
+    gap: 10px;
+    display: flex;
+    width: 100%;
+    padding-top: 12px;
+    justify-content: center;
+
+}
+.sc1{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+.contactme{
+    font-size: 24px;
+    padding-top: 24px;
+    width: 100%;
+    justify-content: center;
+    /* margin: 0px 720px; */
+    /* white-space: nowrap; */
+}
+
+
