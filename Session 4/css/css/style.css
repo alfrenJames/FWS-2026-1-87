@@ -1,0 +1,73 @@
+.header-container {
+    background-color: green;
+    height: 30vh; 
+    display: block;
+    margin: 20px;
+    padding-right: 20px;
+    margin-right: 10%;
+}
+    .Profile-pic {
+    border: 3px black solid;
+    background-color: red;
+    padding: 10px 100px 101px 100px;
+    display: inline;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+    }
+    .Profile-data {
+    border: 3px black solid;
+    background-color: red;
+    padding: 10px 525px 101px;
+    margin-bottom: 150px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline;
+    }
+
+.body-container {
+    background-color: green;
+    height: 60vh;   
+    margin: 20px;
+    margin-top: -30px;
+    margin-right: 10%;
+    padding-top: 1%;
+    padding-right: 20px;
+    padding-bottom: 230px;
+
+   
+}
+    .Detiails-part2 {
+    border: 3px black solid;
+    background-color: red;
+    display: block;
+    padding-top: 25px;
+    padding-right: 24%;
+    padding-bottom: 160px;
+    margin-top: 0px;
+    margin-right: 949px;
+    margin-left: 8px;
+   }
+    .Contact-Numbers {
+    border: 3px black solid;
+    background-color: red;
+    display: block;
+    padding: 5%;
+    padding-bottom: 27%;
+    padding-right: 20%;
+    margin-top: 3px;
+    margin-right: 950px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+   }
+    .Image-Business {
+    border: 3px black solid;
+    background-color: red;
+    display: inline; 
+    padding-top: 47%;   
+    padding-right: 20%;
+    padding-left: 50%;
+    margin-right: 200px;
+    margin-left: 400px;
+   }
