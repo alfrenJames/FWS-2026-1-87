@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: #3d4743;
+    margin-left: 30px;
+}
+
+.container{
+    width: 800px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo img{
+    width: 200px;
+    border-radius: 150px;
+    margin-left: 40px;
+}
+
+.profile-photo{    
+    display: inline-block;
+    vertical-align: middle;
+}
+.personal-info{
+    color: #ffcd00;
+    background-color: #192230;
+    margin:0;
+    padding: 20px;
+    border-radius: 60px;
+    
+}
+.personal-info p{
+    color : #a5aaad
+}
+
+.info{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 40px;
+}
+
+button{
+    background-color: #ffcd00;
+    color: #192230;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;       
+}
+
+.about-me{
+    background-color: #192230;
+    color: #a5aaad;
+    padding: 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+    padding: 40px;
+    
+}
+
+.p-info, .skills{
+    background-color: #ffcd00;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    padding: 20px;
+    color: #192230;
+}
+
+.works{
+    background-color: #192230;
+    color: #a5aaad;
+    padding: 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.works img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.work-image{
+
+    margin-left: 20px;
+}
