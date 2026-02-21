@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Display Property Comparison</title>
+    <style>
+        /* General styling for all boxes */
+        .box {
+            padding: 10px;
+            margin: 5px;
+            color: white;
+            font-family: sans-serif;
+            border: 2px solid black;
+        }
+
+        /* 1. BLOCK: Takes full width, starts new line */
+        .block-element {
+            display: block;
+            background-color: #e74c3c; /* Red */
+        }
+
+        /* 2. INLINE: Side-by-side, ignores width/height */
+        .inline-element {
+            display: inline;
+            background-color: #3498db; /* Blue */
+            width: 500px; /* This will be ignored! */
+        }
+
+        /* 3. INLINE-BLOCK: Side-by-side + respects width/height */
+        .inline-block-element {
+            display: inline-block;
+            background-color: #f1c40f; /* Yellow */
+            color: black;
+            width: 150px;
+            height: 50px;
+        }
+
+        /* 4. FLEX: Parent controls child alignment in a row */
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            background-color: #2ecc71; /* Green */
+            padding: 10px;
+        }
+
+        /* 5. GRID: Parent defines a 2D structure (columns) */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+            gap: 10px;
+            background-color: #9b59b6; /* Purple */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>1. Display: Block</h2>
+    <div class="block-element box">Box 1 (I take the whole row)</div>
+    <div class="block-element box">Box 2</div>
+
+    <hr>
+
+    <h2>2. Display: Inline</h2>
+    <div class="inline-element box">Box 1 (Side by side...)</div>
+    <div class="inline-element box">Box 2 (...and width:500px is ignored)</div>
+
+    <hr>
+
+    <h2>3. Display: Inline-Block</h2>
+    <div class="inline-block-element box">Box 1 (Side-by-side...)</div>
+    <div class="inline-block-element box">Box 2 (...with custom width!)</div>
+
+    <hr>
+
+    <h2>4. Display: Flex (Container)</h2>
+    <div class="flex-container">
+        <div class="box" style="background: darkgreen;">Flex Item 1</div>
+        <div class="box" style="background: darkgreen;">Flex Item 2</div>
+        <div class="box" style="background: darkgreen;">Flex Item 3</div>
+    </div>
+
+    <hr>
+
+    <h2>5. Display: Grid (Container)</h2>
+    <div class="grid-container">
+        <div class="box" style="background: darkmagenta;">Grid 1</div>
+        <div class="box" style="background: darkmagenta;">Grid 2</div>
+        <div class="box" style="background: darkmagenta;">Grid 3</div>
+        <div class="box" style="background: darkmagenta;">Grid 4</div>
+    </div>
+
+</body>
+</html>
