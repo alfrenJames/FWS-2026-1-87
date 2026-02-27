@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+
+}
+
+.container {
+    background-color: lightslategray;
+    width: 70%;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 70%;
+    margin-left:5%;
+    box-shadow: 0 2px 5px;
+}
+
+h1 {
+    color: white ;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    top: 140px;
+    right: 450px;
+}
+
+.title {
+    color: lightgray;
+    text-shadow: 0 0 2px white;
+    font-size: 18px;
+    position: absolute;
+    top: 190px;
+    right: 717px;
+}
+
+.description {
+    font-style: italic;
+    color: aqua;
+    margin: 20px 0;
+    position: absolute;
+    top: 240px;
+    left: 41%;
+    right: 20%;
+}
+
+span.a {
+    color: black;
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 35px;
+    font-size: 24px;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 5px whitesmoke;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 0 0 5px whitesmoke;
+}
+
+span.b {
+    color: aqua;
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 35px;
+    font-size: 25px;
+}
