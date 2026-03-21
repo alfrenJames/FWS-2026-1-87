@@ -39,4 +39,18 @@ let nameSpecif = converstionObject.arrayOFName;
 
 console.log(converstionObject.userName, converstionObject.stepsTaken + 1, converstionObject.arrayOFName[2]);
 console.log(nameSpecif[0]);
+//nested objects
+let shoes ={
+    addidas: {
+    stock:1,
+    color:"red",
+    isAvailable: false
+    },
+    nike: {
+    stock:10,
+    color:"white",
+    isAvailable: true
+    }
+}
+console.log(shoes.nike.stock);
 
