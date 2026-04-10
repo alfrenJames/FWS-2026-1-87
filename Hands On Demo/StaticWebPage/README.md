@@ -14,4 +14,4 @@
 
 2. Learn tips and tricks to create a responsive webpage  
 
-3. Deploy the page via GitHub Pages  
+3. Deploy the page from Github to Vercel
