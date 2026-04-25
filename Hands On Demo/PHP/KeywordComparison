@@ -1,0 +1,7 @@
+## Public vs Private vs Protected
+
+| Access Level | Same Class | Child Class (extends) | Outside Class |
+|--------------|-----------|-----------------------|---------------|
+| public       | ✔️        | ✔️                    | ✔️            |
+| private      | ✔️        | ❌                    | ❌            |
+| protected    | ✔️        | ✔️                    | ❌            |
