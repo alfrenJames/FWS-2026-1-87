@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#hero" class="logo">Dev.Portfolio</a>
+        <ul class="nav-links">
+            <li><a href="#tech">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </li>
+        </ul>
+        
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section id="hero" class="section hero">
+        <div class="hero-content">
+            <h1 class="animate-name">John Doe</h1>
+            <p class="subtitle">> <span id="typewriter"></span><span class="cursor">|</span></p>
+            
+            <div class="action-buttons">
+                <a href="https://linkedin.com" target="_blank" class="btn btn-primary"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" target="_blank" class="btn btn-secondary"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech" class="section tech-section">
+        <h2>Technologies I Use</h2>
+        <div class="tech-grid">
+            <div class="tech-card"><i class="fa-brands fa-html5"></i> HTML5</div>
+            <div class="tech-card"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+            <div class="tech-card"><i class="fa-brands fa-js"></i> JavaScript</div>
+            <div class="tech-card"><i class="fa-brands fa-python"></i> Python</div>
+            <div class="tech-card"><i class="fa-brands fa-git-alt"></i> Git</div>
+            <div class="tech-card"><i class="fa-solid fa-database"></i> SQL</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://picsum.photos/seed/sys1/400/250" alt="Inventory System">
+                <div class="project-info">
+                    <h3>Smart Inventory System</h3>
+                    <p>A web-based dashboard for tracking warehouse metrics in real-time. Built with a focus on speed and UX.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://picsum.photos/seed/sys2/400/250" alt="E-Commerce API">
+                <div class="project-info">
+                    <h3>E-Commerce REST API</h3>
+                    <p>A scalable backend service handling user authentication, product catalogs, and cart management.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://picsum.photos/seed/sys3/400/250" alt="Weather App">
+                <div class="project-info">
+                    <h3>GeoWeather App</h3>
+                    <p>A responsive application that fetches real-time weather data based on user geolocation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <section id="contact" class="section contact-section">
+        <h2>Let's Connect</h2>
+        <form id="contactForm" class="contact-form">
+            <div class="input-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" id="submitBtn" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
