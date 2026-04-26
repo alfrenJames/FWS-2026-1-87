@@ -19,7 +19,7 @@ class Product {
     }
 }
 
-$product1 = new Product("Laptop", 10);
+$product1 = new Product("Nike Air", 10);
 $product1->sell(12);
 
 ?>
