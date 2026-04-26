@@ -19,10 +19,7 @@ class Product {
     }
 }
 
-// 🔹 Creating an object (instantiating)
 $product1 = new Product("Laptop", 10);
-
-// 🔹 Using the object
 $product1->sell(12);
 
 ?>
